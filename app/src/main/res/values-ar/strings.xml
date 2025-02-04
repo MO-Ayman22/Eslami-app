@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إسلامي</string>
+    <string name="name_text">إسلامي</string>
+    <string name="radio">الراديو</string>
+    <string name="tasbeh">التسبيح</string>
+    <string name="al_hadeth">الأحاديث</string>
+    <string name="al_quran">القرآن الكريم</string>
+    <string name="number_of_tasbihs">عدد التسبيحات</string>
+    <string name="subhan_allah">سبحان الله</string>
+    <array name="tasbeh_array" format="string">
+        <item>سبحان الله</item>
+        <item>الحمد لله</item>
+        <item>الله أكبر</item>
+        <item>لا إله إلا الله</item>
+    </array>
+</resources>

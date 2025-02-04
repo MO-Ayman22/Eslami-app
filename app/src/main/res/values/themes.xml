@@ -1,0 +1,34 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Eslami" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+    </style>
+
+    <style name="Theme.Eslami" parent="Base.Theme.Eslami" />
+
+    <style name="titleBold">
+        <item name="font">@font/main_bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="titleRegular">
+        <item name="font">@font/main_regular</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="titleSemiBold">
+        <item name="font">@font/main_semi_bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="verseRegular">
+        <item name="font">@font/main_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Eslami</string>
+    <string name="name_text">Eslami</string>
+    <string name="radio">Radio</string>
+    <string name="tasbeh">Tasbeh</string>
+    <string name="al_hadeth">Al Hadeth</string>
+    <string name="al_quran">Al Quran</string>
+    <string name="number_of_tasbihs">Number of Tasbihs</string>
+    <string name="subhan_allah">Subhan Allah</string>
+    <array name="tasbeh_array" format="string">
+        <item>Subhan Allah</item>
+        <item>Alhamdu lillah</item>
+        <item>Allahu Akbar</item>
+        <item>La ilaha illa Allah</item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
