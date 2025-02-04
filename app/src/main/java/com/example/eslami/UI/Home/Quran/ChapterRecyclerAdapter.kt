@@ -6,11 +6,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.eslami.R
-import com.example.eslami.UI.Home.OnItemClickListener
 
 class ChapterRecyclerAdapter(
     private val chapters: List<String>,
-    private val listener: OnItemClickListener
+    private val listener: OnChapterClickListener
 ) : RecyclerView.Adapter<ChapterRecyclerAdapter.ViewHolder>() {
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val title: TextView = itemView.findViewById(R.id.tv_title)

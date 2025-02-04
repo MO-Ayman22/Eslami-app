@@ -10,11 +10,10 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DividerItemDecoration
 import com.example.eslami.R
 import com.example.eslami.UI.Home.Constants
-import com.example.eslami.UI.Home.OnItemClickListener
 import com.example.eslami.databinding.FragmentQuranBinding
 
 
-class QuranFragment : Fragment(), OnItemClickListener {
+class QuranFragment : Fragment(), OnChapterClickListener {
     lateinit var adapter: ChapterRecyclerAdapter
     lateinit var binding: FragmentQuranBinding
     override fun onCreate(savedInstanceState: Bundle?) {

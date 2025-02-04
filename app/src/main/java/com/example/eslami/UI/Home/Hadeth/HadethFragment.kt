@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.eslami.R
 import com.example.eslami.UI.Home.Constants
-import com.example.eslami.UI.Home.OnHadethClickListener
 import com.example.eslami.databinding.FragmentHadethBinding
 
 class HadethFragment : Fragment(), OnHadethClickListener {
