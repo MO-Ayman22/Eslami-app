@@ -29,7 +29,7 @@ class QuranFragment : Fragment(), OnChapterClickListener {
     }
 
     private val chapters = listOf(
-        "الفاتحه",
+        "الفاتحة",
         "البقرة",
         "آل عمران",
         "النساء",
